@@ -16,7 +16,7 @@ public class Coin {
 	
 	
 	public String convert(Object option, Double valor) {
-		DecimalFormat df = new DecimalFormat("#0.00");
+		DecimalFormat df = new DecimalFormat("#,###,##0.00");
 		double r = 0;
 		String m = "";
 		if (option == "De Reais a Dolares") {
