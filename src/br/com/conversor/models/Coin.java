@@ -19,34 +19,44 @@ public class Coin {
 		DecimalFormat df = new DecimalFormat("#,###,##0.00");
 		double r = 0;
 		String m = "";
+		
 		if (option == "De Reais a Dolares") {
 			r = valor/this.dollar;
 			m = "Dolares Americanos";
-		} else if (option == "De Reais a Euros") {
+		} 
+		else if (option == "De Reais a Euros") {
 			r = valor/this.euro;
 			m = "Euros";
-		} else if (option == "De Reais a Libras") {
+		} 
+		else if (option == "De Reais a Libras") {
 			r = valor/this.libraEterlina;
 			m = "Libras Esterlinas";
-		} else if (option == "De Reais a Pesos Argentinos") {
+		} 
+		else if (option == "De Reais a Pesos Argentinos") {
 			r = valor/this.pesoArgentino;
 			m = "Pesos Argentinos";
-		} else if (option =="De Reais a Pesos Chilenos") {
+		} 
+		else if (option =="De Reais a Pesos Chilenos") {
 			r = valor/this.pesoChileno;
 			m = "Pesos Chilenos";
-		} else if (option == "De Dolares a Reais") {
+		} 
+		else if (option == "De Dolares a Reais") {
 			r = valor*this.dollar;
 			m = "Reais";
-		} else if (option == "De Euros a Reais") {
+		} 
+		else if (option == "De Euros a Reais") {
 			r = valor*this.euro;
 			m = "Reais";
-		} else if (option == "De Libras a Reais") {
+		} 
+		else if (option == "De Libras a Reais") {
 			r = valor*this.libraEterlina;
 			m = "Reais";
-		} else if (option == "De Pesos Argentinos a Reais") {
+		} 
+		else if (option == "De Pesos Argentinos a Reais") {
 			r = valor*this.pesoArgentino;
 			m = "Reais";
-		} else if (option == "De Pesos Chilenos a Reais") {
+		} 
+		else if (option == "De Pesos Chilenos a Reais") {
 			r = valor*this.pesoChileno;
 			m = "Reais";
 		}

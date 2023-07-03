@@ -1,7 +1,8 @@
 package br.com.conversor;
 
 /**
- * Este aplicativo tem por finalidade realizar a conversao de moedas ou temperaturas,
+ * Este aplicativo tem por finalidade realizar a conversao de moedas ou 
+temperaturas,
  * cabe ao usuario escolhar a funcao que ele deseja. No final, o usuario pode continuar
  * utilizando a aplicacao, clicando em YES(O processo recomeca do inicio), ou clicar
  * e NO ou CANCEL para finalizar.
