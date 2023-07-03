@@ -28,8 +28,8 @@ public class Menu {
 			"De Celcius para Fahrenheit",
 			"De Fahrenheit para Celcius"
 	};
-	/** Este metodo cria um caixa de mensagem com um combobox listando as poções
-	 * armezenados no array s do tipo String. 
+	/** Este metodo cria uma caixa de mensagem com um combobox listando as opcoes
+	 * armezenadas no array s do tipo String. 
 	 * @param s
 	 * @return String do array s
 	 */
@@ -62,8 +62,8 @@ public class Menu {
 	}
 	
 	/**
-	 * Este metodo exibe uma caixa de diálogo e recebe uma valor informado pelo
-	 * usuário, que será convertido.
+	 * Este metodo exibe uma caixa de diálogo e recebe um valor informado pelo
+	 * usuario, que sera convertido.
 	 * O valor informado só pode ser numérico. Não pode ser letras ou caracteres,
 	 * não pode conter espaço ou ser vazio. 
 	 * 
