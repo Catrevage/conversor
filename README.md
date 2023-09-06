@@ -14,4 +14,21 @@
  <p> Este aplicativo tem a finalidade de fazer converções de moedas ou de temperatudas</p>
 
  <h2>Principais telas da Aplicação</h2>
+ <h3>Tela inicial da aplicação.</h3>
  <img src="img/main.png">
+ <p>Nesta tela o usuário escolhe qual o tipo de conversão deseja fazer.</p>
+
+ <h3>Tela de Input</h3>
+ <img src="img/input.png">
+ <p>Nesta tela é informado o valor a ser convertido.</p>
+
+ <h3>Tela de Origem/Destino</h3>
+ <img src="img/menu_moedas.png">
+ <p>Nesta tela o usuário escolhe de qual moeda para qual moeda deseja fazer a conversão.</p>
+
+ <h3>Resultado</h3>
+ <img src="img/resultado.png">
+ <p>Aqui é informado o resultado da conversão</p>
+
+ <h2>Conclusão</h2>
+<p>Este aplicativo foi desenvolvido como parte do curso de formação Oracle One Next Education, nele, foram utilizados vários conceitos da linguagem Java e da Programação Orientada a Objetos.</p>
